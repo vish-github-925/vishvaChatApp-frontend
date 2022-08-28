@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "http://localhost:5000/api/users/";
+const API_URL = "https://vish-mern-chat-app.herokuapp.com/api/users/";
 
 // register user
 const registerUser = async (userData) => {

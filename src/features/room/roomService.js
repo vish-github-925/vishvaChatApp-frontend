@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/room/";
+const API_URL = "https://vish-mern-chat-app.herokuapp.com/api/room/";
 
 // create
 const create = async (token) => {

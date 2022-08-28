@@ -12,7 +12,7 @@ import io from "socket.io-client";
 import { toast } from "react-toastify";
 import MessageBox from "../components/MessageBox";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://vish-mern-chat-app.herokuapp.com/");
 
 import styled from "styled-components";
 
